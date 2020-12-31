@@ -4,27 +4,66 @@ namespace Eurecab\Finder\Algorithm;
 
 use DateTime;
 
+/**
+ * Class Thing
+ */
 final class Thing
 {
-    /** @var string */
+    /**
+     * @var string
+     */
     public $name;
 
-    /** @var DateTime */
+    /**
+     * @var DateTime
+     */
     public $birthDate;
 
-    public function getName(): string {
+    /**
+     * Gets the name.
+     *
+     * @return string
+     */
+    public function getName(): string
+    {
         return $this->name;
     }
 
-    public function setName(string $name) {
+    /**
+     * Sets the name.
+     *
+     * @param string $name
+     *
+     * @return self
+     */
+    public function setName(string $name): self
+    {
         $this->name = $name;
+
+        return $this;
     }
 
-    public function getBirthDate(): DateTime {
+    /**
+     * Gets the BirthDate.
+     *
+     * @return \DateTimeInterface
+     */
+    public function getBirthDate(): \DateTimeInterface
+    {
         return $this->birthDate;
     }
 
-    public function setBirthDate(DateTime $birthDate) {
+    /**
+     * Sets the BirthDate.
+     *
+     * @param \DateTimeInterface $birthDate
+     *
+     * @return self
+     */
+    public function setBirthDate(\DateTimeInterface $birthDate): self
+    {
         $this->birthDate = $birthDate;
+
+        return $this;
     }
 }
