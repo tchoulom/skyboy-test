@@ -1,0 +1,27 @@
+To solve these problems, you can choose your preferred language.
+
+* Exercise 1
+
+Write a short program that prints each number from 1 to 100 on a new line. 
+
+For each multiple of 3, print "Fizz" instead of the number. 
+For each multiple of 5, print "Buzz" instead of the number. 
+For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
+
+
+* Exercise 2
+
+Given a sorted array of integer numbers, write a function which returns the position of the specified value.
+The function should return -1 if the requested number is not found in the array.
+
+Example:
+
+arr = [4, 5, 8, 15, 21, 24, 56, 87]
+
+valuePosition(arr, 21)
+returns 4
+
+valuePosition(arr, 22)
+returns -1
+
+

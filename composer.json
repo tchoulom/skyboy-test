@@ -1,0 +1,19 @@
+{
+  "require": {
+    "php": "^7.0",
+    "phpunit/phpunit": "^8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Eurecab\\Finder\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Eurecab\\FinderTest\\": "tests/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}
